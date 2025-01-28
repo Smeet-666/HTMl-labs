@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+     
+     .tx{color : rgb(16, 145, 22); 
+      font-weight: 600;
+     }
+
+     h1{
+      color: rgba(0, 0, 0, 0.742);
+      background-color: rgba(0, 0, 0, 0.127);
+     }
+
+    div{
+      border: 15px solid rgba(20, 52, 78, 0.921);
+      width: 50%;
+      height: 40%;  
+    }
+
+    .e{
+      width: 90%;
+    }
+    .rnge{
+      color: aliceblue;
+      background-color: rgba(0, 255, 47, 0.671)
+    }    
+    
+     
+    </style>
+  </head>
+  <body>
+    <form action="" align="center" cellpading="10">
+      <div>
+        <table align="center" id="tb">
+          <caption ><h1 style="background-color: rgba(0, 0, 0, 0.212); width: 800px; height: 100;">Create Account</h1>
+          </caption>
+        <tr align="left">
+          <td><label for="fn" class="tx">First Name *</label> </td>
+          <td><label for="ln" class="tx">Last name</label></td>
+        </tr>
+        
+        <tr align="left">
+          <td>
+            <input id="fn" type="text" placeholder="enter your first name" />
+          </td>
+          <td>
+            <input id="ln" type="text" placeholder="enter your last name" />
+          </td>
+        </tr>
+        
+        <tr height="10px"></tr>
+        
+        <tr align="left">
+          <td><label for="em" class="tx">Email*</label></td>
+        </tr>
+        
+        <tr align="left">
+          <td>
+            <input
+            type="email"
+            id="em"
+            placeholder="enter your email"
+            size="" class="e" colspan="2"
+            />
+          </td>
+        </tr>
+        
+        <tr height="10px"></tr>
+        
+        <tr align="left">
+          <td><label for="p" class="tx">Password*</label></td>
+          <td><label for="cp" class="tx">Confirm password*</label></td>
+        </tr>
+        
+        <tr align="left">
+          <td>
+            <input type="password" id="p" placeholder="enter your password" />
+          </td>
+          <td>
+            <input
+            type="password"
+            id="cp"
+            placeholder="enter your password again"
+            />
+          </td>
+        </tr>
+        
+        <tr height="10px"></tr>
+        
+        <tr align="left">
+          <td class="tx">Gender</td>
+          <td class="tx">Hobbies</td>
+        </tr>
+        
+        <tr align="left">
+          <td>
+            <input type="radio" id="m" name="gen" /><label for="m">Male</label>
+            <input type="radio" id="f" name="gen" /><label for="f"
+            >Female</label
+            >
+          </td>
+          <td>
+            <input type="checkbox" id="mu" /><label for="mu">Music</label>
+            <input type="checkbox" id="so" /><label for="so">Sports</label>
+            <input type="checkbox" id="tr" /><label for="tr">Travel </label>
+            <input type="checkbox" id="mo" /><label for="mo">Movies</label>
+          </td>
+        </tr>
+
+        <tr height="10px"></tr>
+        
+        <tr align="left">
+          <td><label for="sou" class="tx">Source of income</label></td>
+          <td><label for="in" class="tx">Income</label></td>
+        </tr>
+        
+        <tr align="left">
+          <td>
+            <select name="" id="sou">
+              <option value="" selected="Employed" disabled>Employed</option>
+              <option value="">Manager</option>
+              <option value="">Businessman</option>
+            </select>
+            <td><input type="range" id="in" min="0" max="100000" name="in" oninput="this.nextElementSibling.value = this.value"/>
+              <button style="background-color: aquamarine; "><output id="rnge">1234</output></button>
+            </td>            
+          </td>
+        </tr>
+        
+        <tr height="10px"></tr>
+        
+        <tr align="left">
+          <td><label for="u" class="tx">Upload Profile Picture</label></td>
+          <td><label for="ag" class="tx">Age</label></td>
+        </tr>
+        
+        <tr align="left">
+          <td><input type="file" id="u" /></td>
+          <td><input type="number" id="ag" /></td>
+        </tr>
+        
+        <tr height="10px"></tr>
+        
+        <tr align="left">
+          <td><label for="b" class="tx">Bio</label></td>
+        </tr>
+        
+        <tr align="left">
+          <td colspan="2"><textarea name="" id="b" rows="5" cols="55"></textarea></td>
+        </tr>
+      </table>
+      <footer style="background-color: rgba(0, 0, 0, 0.212); text-align: end;">
+        <button style="color: aliceblue; background-color: green;">Create</button>
+      </footer>
+    </div>
+      
+    </form>
+  </body>
+  </html>
+  
