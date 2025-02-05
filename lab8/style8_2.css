@@ -1,9 +1,9 @@
 .back{
-    background-image:url(istockphoto-1212911887-2048x2048.jpg) ;
-    height: 1000px;
+    background-image:url(Screenshot\ 2025-02-05\ at\ 10.08.18\ AM.png) ;
+    height: 1100px;
     width: 80%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .mainbox{
     background-image: url(https://media.istockphoto.com/id/1470225786/photo/laptop-and-blank-notepad-on-a-blue-background-top-view-copy-space.jpg?s=1024x1024&w=is&k=20&c=1SMo6cY20x7tFbCEFJjJPFOGohO74TZws7CPoIDJTRs=);
@@ -55,4 +55,84 @@
     width: 90%;
     margin-top: 500px;
 }
+.textbox{
+    margin-left: 50px;
+    margin-top: 40px;
+    color: #67d45f;
+}
+.text{
+    font-size: 20px;
+}
+.hire{
+    background-color: red;
+    color:  white;
+    height: 20px;
+    width: 65px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-top: 30px;
+}
 
+.companys{
+    height: 110px;
+    width:100%;
+}
+
+.second{
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    margin-top: 200px;
+}
+.secondin{
+    display: flex;
+    height: 400px;
+}
+.secondleft{
+    width: 350px;
+    text-align: center;
+    padding-top: 80px;
+    vertical-align: middle;
+}
+.secondtext{
+    padding-left: 0px;
+}
+.secondleft p{
+    padding-left: 30px;
+}
+.number{
+    font-size: 100px;
+}
+.secondright{
+    background-color: red;
+    width: 80%;
+
+}
+.toptext{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    height: 50px;
+    font-size: 40px;
+    padding-left: 20%;
+}
+.threebox{
+    display: flex;
+}
+#first{
+    background-color: black;
+}
+.three{
+    height: 300px;
+    margin: 50px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(199, 203, 206);
+}
+.bulb{
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 150px 40px;
+}
