@@ -37,17 +37,34 @@
     padding: 10px;
     color: azure;
 }
-.searchbar{
+
+.searchbar {
     display: flex;
+    align-items: center;
 }
-.search{
-    margin-top: 8px;
-    display: flex;
+
+.search_input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    width: 200px;
+}
+
+.search_button {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 30px;
 }
 .icon{
     height: 15px;
     width: 15px;
-    margin-top: 8px;
+    margin-top: 0px;
 }
 
 .second{
@@ -104,7 +121,6 @@
     font-size: 100px;
 }
 .secondright{
-    background-color: red;
     width: 80%;
 
 }
