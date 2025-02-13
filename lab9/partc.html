@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .background{
+            background-color: black;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .image{
+            animation: name 2s ease-in-out 2s infinite alternate backwards;
+            height: 100px;
+            width: 100px;
+            transform: scale(0.4);
+        }
+
+        @keyframes name {
+            0%{
+                margin-top: 0px;
+                margin-left: 100vw;
+            }
+            50%{
+                margin-left: 400px;
+            }
+            100%{
+                scale: 200%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="image"><img src="./knight-3066217_1280.jpg" alt="" srcset=""></div>
+    </div>
+</body>
+</html>

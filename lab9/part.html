@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .colorchange {
+            animation-name: demo;
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            animation-duration: 2s;
+            animation-iteration-count: 3;
+            font-size: 30px;
+            text-align: center;
+
+        }
+
+        .movingdiv{
+            animation-name: move;
+            height: 200px;
+            width: 200px;
+            background-color: rgb(60, 255, 0);
+            animation-duration: 2s;
+            margin-top: 20px;
+            animation-iteration-count: infinite; /* infinite animation*/
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .out{
+            height: 600px;
+            width: 600px;
+            border: 2px solid rebeccapurple;
+            margin-top: 20px;
+        }
+
+        .animationdelay{
+            animation-name: delay;
+            height: 200px;
+            width: 200px;
+            background-color: rgb(60, 255, 0);
+            animation-duration: 2s;
+            animation-delay: 2s;    /* animation delay 2s*/
+            animation-iteration-count: infinite;
+            margin-top: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .reverse{
+            animation-name: reverse;
+            height: 200px;
+            width: 200px;
+            background-color: rgb(232, 159, 24);
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;  /* reverse animation*/
+            animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22); /* animation timing function*/
+        }
+
+        @keyframes demo {
+            from {
+                background-color: red;
+            }
+
+            to {
+                background-color: yellow;
+            }
+        }
+
+        @keyframes move {
+            0%{
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+
+            25%{
+                margin-top: 0px;
+                margin-left: 400px;
+            }
+            50%{
+                margin-top: 400px;
+                margin-left: 400px;
+            }
+            75%{
+                margin-top: 400px;
+                margin-left: 0px;
+            }
+            100%{
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+        }
+
+        @keyframes delay {
+            from{
+                background-color: aqua;
+            }
+
+            to{
+                background-color: brown;
+            }
+        }
+
+        @keyframes reverse {
+            from{
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+            to{
+                margin-top: 0px;
+                margin-left: 500px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="colorchange">colorchange</div>
+    <div class="out"><div class="movingdiv">movingdiv</div></div>
+    <div class="animationdelay">animationdelay</div>
+    <div class="reverse">rev. animation</div>
+
+</body>
+
+</html>
