@@ -1,0 +1,20 @@
+.container{
+    height: 90vh;
+    width: 90vw;
+}
+
+.box1{
+    height: 400px;
+    width: 600px;
+    background: linear-gradient(red 40%,orange,yellow);
+    display: inline-block;
+    margin: 20px;
+}
+.box2{
+    height: 400px;
+    width: 600px;
+    background: radial-gradient(red,yellow,#178f01);
+    display: inline-block;
+    margin: 20px;
+    margin-left: 24px;
+}
