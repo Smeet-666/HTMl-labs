@@ -1,0 +1,34 @@
+.container {
+    height: 80vh;
+    width: 97vw;
+    background-color: #ffffff;
+  }
+  .row {
+    height: 250px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  
+  .box {
+    border-radius: 28px;
+    overflow: hidden;
+    height: 280px;
+    width: 180px;
+    margin: 10px;
+  }
+  
+  .color {
+    height: 60%;
+    background-color: aquamarine;
+  }
+  .txt {
+
+    background-color: white;
+    padding-bottom : 1px;  
+    height: 40%;
+    line-height: 0.01%;
+    padding-left: 8px;
+    font-size: 20px;
+  }
