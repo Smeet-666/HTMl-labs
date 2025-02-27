@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            font-size: 25px;
+        }
+
+        a:visited {
+            color: red;
+        }
+        p{
+            font-size: 30px;
+        }
+        p::first-letter{
+            font-size: 60px;
+            color: yellowgreen;
+        }
+        p::first-line{
+            color: rgb(208, 208, 26);
+            background-color: rgb(165, 162, 156);
+        }
+
+        p::selection{
+            color: brown;
+            background-color: rgb(27, 211, 86);
+        }
+
+        .box{
+            height: 300px;
+            width: 300px;
+            background-color: burlywood;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .box:hover{
+            background-color: rgb(188, 210, 229);
+            color: red;
+        }
+
+        ::marker{
+            color: darkviolet;
+        }
+
+        li:nth-child(odd){
+            color: rgb(119, 160, 95);
+        }
+        li:nth-child(even){
+            color: rgb(255, 117, 4);
+        }
+        
+         li:nth-last-child(1){
+            background-color: aqua;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <a href="http://google.com">Google</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur itaque ut id temporibus consequuntur.
+        Architecto, provident? Enim iste tempora possimus labore recusandae reiciendis inventore architecto itaque illo
+        optio, temporibus voluptatibus.</p>
+    
+    <div class="box">This is a box</div>
+
+    <div class="list">
+            <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+                <li>item 4</li>
+            </ul>
+            <ol>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+                <li>item 4</li>
+            </ol>
+        </div>
+</body>
+
+
+</html>
