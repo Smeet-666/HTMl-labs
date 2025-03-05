@@ -1,0 +1,122 @@
+*{
+    font-size: 20px;
+}
+.outerup{
+    height: 250px;
+    width: 100vw;
+    background-color: green;
+}
+
+.innerup{
+    height: 240px;
+    width: 100vw;
+    background-color: bisque;
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    padding: 25%;
+}
+.homelogo{
+    height: 120px;
+    width: 120px;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 50px;  
+}
+
+.innerup a{
+    padding-right: 20px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.links{
+    margin-top: 20px;
+}
+
+.secondbox{
+    border:  3px solid green;
+    height: 200px;
+    width: 100vw;
+    margin-top: 5px;
+    display: flex;
+}
+
+.image{
+    height: 150px;
+    width: 190px;
+    margin-top: 25px;
+}
+
+.secondinner{
+    margin-left: 250px;
+    font-size: 25px;
+}
+
+.read{
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: aquamarine;
+    font-size: 25px;
+    margin-top: 30px;
+
+}
+.mainbox{
+    height: 700px;
+    width: 100vw;
+    background-color: darkgrey;
+    margin-top: 20px;
+    display: flex;
+}
+
+.content{
+    width: 1000px;
+    height: 600px;
+    margin-left: 20px;
+}
+
+.innercontent{
+    margin-top: 20px;
+    width: 900px;
+    margin-left: 40px;
+}
+
+
+.sidebar{
+    height: 400px;
+    padding: 4px;
+    width: 395px;
+    margin-right: 5px;
+    margin-top: 3px;
+    
+}
+
+.b{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.p{
+    margin-left: 1px;
+    margin-bottom: 50px;
+}
+.p img{
+    scale: 1.5;
+}
+label{      
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.t{
+
+    margin-left: 50px;
+}
