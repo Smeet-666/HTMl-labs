@@ -1,0 +1,132 @@
+.navbar{
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(60, 58, 58);
+    display: flex;
+    flex-direction: row;
+
+}
+.links{
+    margin-left:500px;
+    margin-top: 12px;
+}
+.navbar a{
+    margin-left: 100px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.mid{
+    height: 900px;
+    width: 100vw;
+    background-color: bisque;
+    margin-top: 0px;
+    position: absolute;
+}
+.heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head{
+    font-size: 40px;
+
+}
+
+.book{
+    height: 700px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 30px;
+    background-color: aliceblue;
+    
+}
+
+.oreal{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100px;padding-top: 10px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.book p{
+    float: right;
+}
+
+h2{
+    margin-left: 200px;
+}
+.complete{
+    background-color: white;
+    margin-top: 0px;
+    position: relative;
+    height: 180px;
+    font-size: 30px;
+}
+
+.js{
+    background-color: yellow;
+    height: 313px;
+    width: 500px;
+
+}.text{
+    font-size: 300px;
+    margin-left: 130px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.rotated{
+    transform: rotate(270deg);
+    color: yellow;
+    position: absolute;
+    bottom: 300px;
+    left: 200px;
+    font-size: 18px;   
+}
+.sidetext{
+    margin-left: 1000px;
+    position: absolute;
+    font-size: 30px;
+    top: 100px;
+    justify-content: center;
+}
+
+button{
+    height: 50px;
+    width: 300px;
+    background-color: orangered;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    left: 40px;
+}
+
+/* .footer{
+    background-color: rgb(200, 255, 196);
+    position: absolute;
+} */
+.btn {
+    color: aliceblue;
+    background-color: chocolate;
+    border-color: chocolate;
+    border-radius: 20px;
+    padding: 10px;
+    width: 400px;
+}
+
+.foot {
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    font-size: larger;
+    height: 130px;
+    background-color: #021926;
+    margin-top: 800px;
+}
